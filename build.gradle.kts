@@ -18,7 +18,7 @@ subprojects {
     tasks.withType<Test> {
         useJUnitPlatform()
         testLogging {
-            events = setOf(TestLogEvent.PASSED, TestLogEvent.FAILED)
+            events = setOf(TestLogEvent.PASSED, TestLogEvent.SKIPPED, TestLogEvent.FAILED)
         }
     }
 }
