@@ -12,4 +12,4 @@ Java implementation of some GOF patterns.
 | Run tests of one project | `./gradlew :<project_name>:test ` |
 | List projects | `./gradlew projects` |
 
-[jdk]: https://img.shields.io/badge/jdk-1.8-5481A0.svg?style=for-the-badge "JDK 1.8"
+[jdk]: https://img.shields.io/badge/jdk-11-5481A0.svg?style=for-the-badge "JDK 11"
